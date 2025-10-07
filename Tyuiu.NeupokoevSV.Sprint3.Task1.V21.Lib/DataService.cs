@@ -11,7 +11,7 @@ namespace Tyuiu.NeupokoevSV.Sprint3.Task1.V21.Lib
                 sum = sum * Math.Pow(((0.5 + ((double)startValue / 5)) / (Math.Cos(value) + 0.5)), 3);
                 startValue ++;
             }
-            return Math.Round(sum, 3);
+            return Math.Round(sum, 2);
         }
     }
 }
