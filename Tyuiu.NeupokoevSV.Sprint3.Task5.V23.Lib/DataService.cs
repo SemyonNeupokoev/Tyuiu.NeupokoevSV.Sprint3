@@ -11,7 +11,7 @@ namespace Tyuiu.NeupokoevSV.Sprint3.Task5.V23.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries = sumSeries + ((Math.Pow(x, i) + 2) * Math.Cos(i));
+                    sumSeries = sumSeries + ((Math.Pow(x, j) + 2) * Math.Cos(j));
                 }
             }
             return Math.Round(sumSeries, 3);

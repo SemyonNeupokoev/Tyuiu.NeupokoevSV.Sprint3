@@ -14,7 +14,7 @@ public sealed class DataServiceTest
         int stopValue1 = 3;
         int stopvalue2 = 10;
         double res = ds.GetSumSumSeries(x, startvalue1, stopValue1, startvalue2, stopvalue2);
-        double wait = 17.29;
+        double wait = -1217.39;
         Assert.AreEqual(wait, res);
     }
 }
